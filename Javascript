@@ -1,0 +1,12 @@
+function getTime()
+{
+       height1 = document.getElementById("height").value;
+       speed1 = document.getElementById("speed").value;
+       labels1 = document.getElementById("labels").value;
+       seconds1 = (height1 / speed1) * labels1;
+       document.getElementById("seconds").innerHTML = seconds1;
+       document.getElementById("minutes").innerHTML = seconds1/60;
+       document.getElementById("hours").innerHTML = seconds1/60;
+       document.getElementById("days").innerHTML = seconds1/24;
+       
+}
