@@ -1,2 +1,2 @@
-# Print-Label-Time-Calculator
+# Javascript-Print-Label-Time-Calculator
 Calculates the total printing time
