@@ -1,0 +1,23 @@
+<style type="text/css">
+body {margin: 30px;}
+</style> 
+</head>
+<body>
+<p>Enter label width (in Inches) :</p>
+<br>
+<input type="text" id="Text1" name="TextBox1" oninput="add_number()">
+<br> <p>Enter printer speed :</p>
+<br>
+<input type="text" id="Text2" name="TextBox2" oninput="add_number()">
+<br> <p>Enter number of labels to be printed :</p>
+<br>
+<input type="text" id="Text3" name="TextBox3" oninput="add_number()">
+<br>
+<br>Total Printing Time :
+<br>
+<input type="text" id="seconds" name="TextBox4">seconds
+<input type="text" id="minutes" name="TextBox5">minutes
+<input type="text" id="hours" name="TextBox6">hours
+<input type="text" id="days" name="TextBox7">days
+</body>
+</html>
